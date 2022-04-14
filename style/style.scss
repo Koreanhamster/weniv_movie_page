@@ -3,16 +3,13 @@
 $color-background: #f2f2f2;
 $color-primary: rgba(130, 130, 130, 1);
 $color-border: rgba(189, 189, 189, 1);
-
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+$color-footer: #4f4f4f;
 
 body {
-  @include center;
   font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .wrapper {
@@ -89,7 +86,7 @@ body {
 
       .desc-term {
         color: $color-primary;
-        margin-right: 5px;
+        margin-right: 2px;
       }
 
       .desc-detail {
@@ -148,9 +145,79 @@ body {
 }
 
 .box-footer {
-  height: 213px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  padding-top: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: $color-background;
+  margin-top: auto;
+
+  .footer-flex,
+  .footer-info-flex {
+    display: flex;
+    min-width: 1120px;
+  }
+
+  .footer-flex {
+    justify-content: space-between;
+    border-bottom: 1px solid $color-border;
+    padding-bottom: 42px;
+    margin-bottom: 36px;
+
+    .logo-sns img {
+      display: inline;
+      width: 24px;
+      height: 24px;
+    }
+
+    .logo-sns a + a {
+      margin-left: 25px;
+    }
+
+    .title-footer {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+
+  .footer-info-flex {
+    justify-content: flex-start;
+    margin-bottom: 38px;
+    font-size: 14px;
+    color: $color-footer;
+
+    .copyright {
+      margin-left: auto;
+    }
+
+    dt,
+    dd {
+      display: inline;
+    }
+
+    dt {
+      font-weight: 700;
+    }
+
+    dl {
+      margin-right: 20px;
+      position: relative;
+    }
+
+    dl + dl ::before {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 14px;
+      background-color: $color-footer;
+      position: absolute;
+      top: 4px;
+      left: -10px;
+    }
+
+    .copyright {
+      font-weight: 700;
+    }
+  }
 }
