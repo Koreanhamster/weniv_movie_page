@@ -163,4 +163,12 @@ body {
 .box-grid .card .button-flex .line-btn {
   border-right: 1px solid #bdbdbd;
 }
+
+.box-footer {
+  height: 213px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+}
 /*# sourceMappingURL=style.css.map */
