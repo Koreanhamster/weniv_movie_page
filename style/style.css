@@ -1,0 +1,166 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrapper {
+  width: 1060px;
+  background-color: #f2f2f2;
+  padding: 39px 26px 29px 27px;
+  border: 2px solid #bdbdbd;
+  border-radius: 15px;
+  margin: 100px auto;
+}
+
+.wrapper .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  border-bottom: 2px solid #bdbdbd;
+  width: 650px;
+  margin: 0 auto 28px auto;
+  padding-bottom: 36px;
+}
+
+.wrapper .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.wrapper .nav-bar li + li {
+  color: #828282;
+  font-weight: 500;
+}
+
+.box-grid {
+  background-color: white;
+  padding: 24px 26px 29px 27px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 23px;
+  border: 2px solid #bdbdbd;
+  border-radius: 15px;
+}
+
+.box-grid .card {
+  padding: 17px 18px 0 18px;
+  border: 1px solid #bdbdbd;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-grid .card .poster {
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+  margin-bottom: 10px;
+}
+
+.box-grid .card .title-movie {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 12px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box-grid .card .list-info {
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.box-grid .card .list-info .desc-term {
+  color: #828282;
+  margin-right: 5px;
+}
+
+.box-grid .card .list-info .desc-detail {
+  font-weight: 500;
+}
+
+.box-grid .card .list-info p {
+  margin-bottom: 5px;
+}
+
+.box-grid .card .list-info .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.box-grid .card .list-info .flex .ranking {
+  margin-left: auto;
+}
+
+.box-grid .card .list-info .flex .star {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  line-height: 14px;
+}
+
+.box-grid .card .button-flex {
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #bdbdbd;
+  font-size: 14px;
+  margin: 0 -18px;
+}
+
+.box-grid .card .button-flex .button {
+  padding: 8px 27px 10px 25px;
+}
+
+.box-grid .card .button-flex .play-btn {
+  display: inline;
+  width: 16px;
+  height: 16px;
+  vertical-align: -3px;
+}
+
+.box-grid .card .button-flex .line-btn {
+  border-right: 1px solid #bdbdbd;
+}
+/*# sourceMappingURL=style.css.map */
