@@ -19,3 +19,4 @@ https://koreanhamster.github.io/weniv_movie_page/
 ## 아쉬운점, 배운점
 - 예매하기와 예고편 버튼을 스타일링하고 포지션하는데 어려움이 있었는데, 일단 반응형이 전혀 고려되지 않고 네거티브 마진을 주는 식으로 버튼이 부모요소에 꽉 차있는것 '처럼' 스타일링을 했기 때문이다.
 - 박스 스타일링은 overflow:hidden을 주어 부모의 border-radius에 맞춰주었다.
+- 아직 inline요소들의 vertical align을 맞추는건 여전히 고통스럽다.
