@@ -1,7 +1,7 @@
 Sass를 사용한 영화목록 페이지 클론코딩
 ====
 https://koreanhamster.github.io/weniv_movie_page/
-미리보기
+
 ![image](https://user-images.githubusercontent.com/95600994/166624369-523809f7-07fe-4ce2-ba00-8ab30fba4ba5.png)
 
 
